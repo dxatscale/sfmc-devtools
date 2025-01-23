@@ -1,0 +1,20 @@
+{
+    "CustomerKey": "testNew_dataExtensionShared",
+    "Name": "testNew_dataExtensionShared",
+    "Description": "",
+    "IsSendable": false,
+    "IsTestable": false,
+    "Fields": [
+        {
+            "DefaultValue": "",
+            "FieldType": "Text",
+            "IsPrimaryKey": false,
+            "IsRequired": true,
+            "MaxLength": 254,
+            "Name": "testField"
+        }
+    ],
+    "c__retentionPolicy": "none",
+    "r__folder_ContentType": "shared_dataextension",
+    "r__folder_Path": "Shared Items/Shared Data Extensions"
+}

@@ -1,0 +1,32 @@
+{
+    "allowErrors": true,
+    "c__blankFileProcessing": "Process",
+    "c__dataAction": "AddUpdate",
+    "c__subscriberImportType": "DataExtension",
+    "createdDate": "2022-11-09T05:32:30.533",
+    "customerKey": "testExisting_importFile",
+    "dateFormatLocale": "en-US",
+    "deleteFile": false,
+    "description": "updated on deploy",
+    "encodingName": "utf-8",
+    "fieldMappings": [],
+    "fieldMappingType": "InferFromColumnHeadings",
+    "fileNamingPattern": "blabla",
+    "fileType": "CSV",
+    "filter": "",
+    "hasColumnHeader": true,
+    "isOrderedImport": true,
+    "isSequential": true,
+    "maxFileAgeHours": 0,
+    "maxFileAgeScheduleOffsetHours": 0,
+    "maxImportFrequencyHours": 0,
+    "modifiedDate": "2023-07-18T09:11:26.19",
+    "name": "testExisting_importFile",
+    "sendEmailNotification": false,
+    "standardQuotedStrings": true,
+    "destination": {
+        "c__type": "DataExtension",
+        "r__dataExtension_key": "testExisting_dataExtension"
+    },
+    "source": { "c__type": "File Location", "r__fileLocation_name": "ExactTarget Enhanced FTP" }
+}
