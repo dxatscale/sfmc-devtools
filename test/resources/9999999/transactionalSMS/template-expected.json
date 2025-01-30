@@ -1,0 +1,12 @@
+{
+    "name": "{{{prefix}}}tsms",
+    "definitionKey": "{{{prefix}}}tsms",
+    "description": "{{{description}}}",
+    "status": "Active",
+    "subscriptions": {
+        "countryCode": "",
+        "autoAddSubscriber": true,
+        "updateSubscriber": true,
+        "r__mobileKeyword_key": "4912312345678.{{{prefixUpper}}}KEYWORD"
+    }
+}

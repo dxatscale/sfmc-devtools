@@ -1,0 +1,8 @@
+{
+    "name": "{{{prefix}}}query",
+    "key": "{{{prefix}}}query",
+    "description": "{{{description}}}",
+    "r__dataExtension_key": "{{{prefix}}}dataExtension",
+    "targetUpdateTypeName": "Overwrite",
+    "r__folder_Path": "Query"
+}

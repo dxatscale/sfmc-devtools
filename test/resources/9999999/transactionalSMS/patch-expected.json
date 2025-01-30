@@ -1,0 +1,14 @@
+{
+    "name": "testExisting_tsms",
+    "definitionKey": "testExisting_tsms",
+    "description": "bla bla",
+    "status": "Active",
+    "createdDate": "2022-11-07T02:24:00",
+    "modifiedDate": "2022-11-07T02:25:00",
+    "subscriptions": {
+        "countryCode": "",
+        "autoAddSubscriber": true,
+        "updateSubscriber": true,
+        "r__mobileKeyword_key": "4912312345678.TESTEXISTING_KEYWORD"
+    }
+}

@@ -1,0 +1,61 @@
+{
+    "description": "{{{description}}}",
+    "key": "{{{prefix}}}automation",
+    "name": "{{{prefix}}}automation",
+    "r__folder_Path": "my automations",
+    "schedule": {
+        "endDate": "2022-07-30T00:00:00",
+        "icalRecur": "FREQ=DAILY;COUNT=1;INTERVAL=1",
+        "startDate": "2022-07-30T00:00:00",
+        "timezoneName": "W. Europe Standard Time"
+    },
+    "status": "PausedSchedule",
+    "steps": [
+        {
+            "activities": [
+                {
+                    "r__key": "{{{prefix}}}dataExtract",
+                    "r__type": "dataExtract"
+                },
+                {
+                    "r__key": "{{{prefix}}}emailSend",
+                    "r__type": "emailSend"
+                },
+                {
+                    "r__key": "{{{prefix}}}fileTransfer",
+                    "r__type": "fileTransfer"
+                },
+                {
+                    "r__key": "{{{prefix}}}importFile",
+                    "r__type": "importFile"
+                },
+                {
+                    "r__key": "{{{prefix}}}query",
+                    "r__type": "query"
+                },
+                {
+                    "r__key": "{{{prefix}}}script",
+                    "r__type": "script"
+                },
+                {
+                    "r__key": "{{{prefix}}}39f6a488-20eb-4ba0-b0b9",
+                    "r__type": "verification"
+                }
+            ],
+            "name": ""
+        }
+    ],
+    "type": "scheduled",
+    "notifications": [
+        {
+            "email": ["complete@test.accenture.com"],
+            "message": "",
+            "type": "Complete"
+        },
+        {
+            "email": ["error@test.accenture.com"],
+            "message": "test",
+            "type": "Error"
+        }
+    ]
+}

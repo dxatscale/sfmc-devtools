@@ -11,6 +11,23 @@
                 "parser": "babel",
                 "trailingComma": "none"
             }
+        },
+        {
+            "files": "*.sql",
+            "options": {
+                "formatter": "sql-formatter",
+                "language": "tsql",
+                "identifierCase": "preserve",
+                "dataTypeCase": "preserve",
+                "functionCase": "upper",
+                "keywordCase": "upper"
+            }
+        },
+        {
+            "files": ".mcdev-validations.js",
+            "options": {
+                "trailingComma": "es5"
+            }
         }
     ]
 }

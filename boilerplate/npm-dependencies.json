@@ -1,10 +1,12 @@
 [
-    "eslint",
-    "prettier",
-    "eslint-config-ssjs",
+    "@eslint/js",
     "eslint-config-prettier",
-    "eslint-plugin-prettier",
+    "eslint-config-ssjs",
     "eslint-plugin-jsdoc",
-    "npm-check",
+    "eslint-plugin-prettier",
+    "eslint",
+    "globals",
+    "prettier-plugin-sql",
+    "prettier",
     "sfmc-boilerplate"
 ]
